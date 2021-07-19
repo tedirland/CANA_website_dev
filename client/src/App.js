@@ -1,7 +1,9 @@
+import Carousel from './Components/Carousel';
+
 function App() {
   return (
     <div className="App">
-      <h1>I am the app component!</h1>
+      <h1>Hello!</h1>
     </div>
   );
 }
