@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Image, Nav, Navbar, Col } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import logo from './canaImg.png';
 
 export default function Header() {
