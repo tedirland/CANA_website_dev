@@ -10,23 +10,17 @@ import Events from './Components/Events';
 
 function App() {
   return (
-    <>
-      <Router>
-        <Header />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/history" component={History} />
-          <Route exact path="/map" component={Map} />
-          <Route exact path="/members" component={Members} />
-          <Route exact path="/events" component={Events} />
-          <Route
-            exact
-            path="/business-directory"
-            component={BusinessDirectory}
-          />
-        </Switch>
-      </Router>
-    </>
+    <Router>
+      <Header />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/history" component={History} />
+        <Route exact path="/map" component={Map} />
+        <Route exact path="/members" component={Members} />
+        <Route exact path="/events" component={Events} />
+        <Route exact path="/business-directory" component={BusinessDirectory} />
+      </Switch>
+    </Router>
   );
 }
 

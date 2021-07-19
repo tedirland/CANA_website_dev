@@ -5,7 +5,6 @@ import logo from './canaImg.png';
 export default function Header() {
   return (
     <>
-      <br />
       <Navbar bg="danger" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand>
