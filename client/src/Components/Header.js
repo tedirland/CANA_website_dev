@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <>
       <br />
-      <Navbar fixed="top" bg="danger" variant="dark" expand="lg">
+      <Navbar bg="danger" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand>
             <img
@@ -18,7 +18,7 @@ export default function Header() {
             />
           </Navbar.Brand>
           <Nav className="justify-content-center">
-            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/map">Map of Historic District</Nav.Link>
             <Nav.Link href="/members">Members' Area</Nav.Link>
             <Nav.Link href="/business-directory">Business Directory</Nav.Link>
